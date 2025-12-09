@@ -51,7 +51,7 @@ def div(body: Operands):
 @app.get("/calc")
 def calc(a: float = Query(...), b: float = Query(...), op: str = Query("add")):
     if op == "add":
-        r = a + b
+        r = a + ab
     elif op == "sub":
         r = a - b
     elif op == "mul":
